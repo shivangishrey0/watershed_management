@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watershed Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Login container will be rendered here -->
+
+        <div class="upload-section">
+          <h2>Upload File</h2>
+          <form id="uploadForm">
+            <input type="file" name="file" id="fileInput" hidden>
+            <label for="fileInput" class="file-label">Choose a file</label>
+            <span id="file-chosen">No file selected</span>
+            <button type="submit">Upload</button>
+          </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
